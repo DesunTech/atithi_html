@@ -2870,8 +2870,7 @@ max-width:700px ;
   .blog-sidebar {
     flex: 0 0 100%;
     margin-left: 0;
-  }
-
+  }commit 
   
   .post-grid {
     grid-template-columns: 1fr;
