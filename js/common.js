@@ -109,14 +109,16 @@ $(document).ready(function () {
 
 $('.openings-slider').slick({
     slidesToShow: 3,
+    centerMode: true,
+    centerPadding: '0',
     slidesToScroll: 1,
     infinite: true,
+   
     dots: false,
     arrows: true,
     prevArrow: $('.prev-arrow'),
     nextArrow: $('.next-arrow'),
-    centerMode: true,
-    centerPadding: '0',
+    
     responsive: [
         {
             breakpoint: 992,
@@ -144,15 +146,25 @@ $('.js-banner').slick({
 
 $('.js-product').slick({
     centerMode: true,
-    centerPadding: '150px',
-    slidesToShow: 3,
+    centerPadding: '30px',
+    slidesToShow: 5,
     autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
+
+        {
+         breakpoint: 991,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }    
+        },
         {
             breakpoint: 768,
             settings: {
-                arrows: false,
+                arrows: true,
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 3
@@ -161,7 +173,7 @@ $('.js-product').slick({
         {
             breakpoint: 480,
             settings: {
-                arrows: false,
+                arrows: true,
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 1
