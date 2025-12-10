@@ -42,12 +42,14 @@ ul {
 }
 
 .navbar-brand {
-    width: 70px;
-    height: 68px;
+   width: clamp(50px, 5vw, 70px);
+height: clamp(48px, 4.8vw, 68px);
+
 }
 
 .navbar-brand img {
     width: 100%;
+   
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -1192,7 +1194,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 0;
-
+    transition: all 0.3s ease-in-out 0.3s;
 }
 
 .what-do-we-container {
@@ -1276,7 +1278,7 @@ ul {
 }
 
 .top-card {
-    margin-top: -195px;
+    margin-top: -220px;
 }
 
 .bootom-card {
@@ -1284,7 +1286,6 @@ ul {
 }
 
 .card:hover {
-    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -3434,6 +3435,16 @@ h1.about-title {
 }
 
 @media (max-width: 1300px) {
+    .navbar-nav .nav-link {
+    font-family: "Public Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #27454a;
+    margin: 0 30px 0 0;
+    transition: 0.3s;
+}
     .card{
         min-width:75px;
         min-height: 75px;
@@ -3513,6 +3524,11 @@ h1.about-title {
     }
 }
 @media (max-width:1200px){
+    .navbar-brand {
+   width: clamp(50px, 5vw, 70px);
+height: clamp(48px, 4.8vw, 68px);
+
+}
    .card{
         min-width:70px;
         min-height: 70px;
@@ -3525,6 +3541,15 @@ h1.about-title {
     }  
 }
 @media (max-width: 1100px) {
+    .navbar-brand {
+   width: clamp(50px, 5vw, 70px);
+height: clamp(48px, 4.8vw, 68px);
+
+}
+.collapse.navbar-collapse{
+    padding: 0;
+}
+   
     .card{
         min-width:70px;
         min-height: 70px;

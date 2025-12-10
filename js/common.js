@@ -221,5 +221,55 @@ $(document).ready(function () {
     });
 });
 
+// what we do section animation
+/* 
+const whatWeDoContElem = document.getElementById("what-do-we-container");
+
+whatWeDoContElem.addEventListener("mouseenter", function(e) {
+    if (e.target.id === "c1") {
+        e.target.style.backgroundImage = 'url("./images/1.png")';
+    }
+    if (e.target.id === "c2") {
+        e.target.style.backgroundImage = 'url("./images/2.png")';
+    }
+    if (e.target.id === "c3") {
+        e.target.style.backgroundImage = 'url("./images/3.png")';
+    }
+    if (e.target.id === "c4") {
+        e.target.style.backgroundImage = 'url("./images/3.png")';
+    }
+    if (e.target.id === "c5") {
+        e.target.style.backgroundImage = 'url("./images/2.png")';
+    }
+
+    if (e.target.id === "c6") {
+        e.target.style.backgroundImage = 'url("./images/1.png")';
+    }
+}, true);
+
+
+whatWeDoContElem.addEventListener("mouseout", function(e) {
+    if (e.target.id === "c1") {
+        e.target.style.backgroundImage = '';
+    }
+    if (e.target.id === "c2") {
+        e.target.style.backgroundImage = '';
+    }
+    if (e.target.id === "c3") {
+        e.target.style.backgroundImage = '';
+    }
+    if (e.target.id === "c4") {
+        e.target.style.backgroundImage = '';
+    }
+    if (e.target.id === "c5") {
+        e.target.style.backgroundImage = '';
+    }
+
+    if (e.target.id === "c6") {
+        e.target.style.backgroundImage = '';
+    }
+}, true);
+*/
+
 
 
