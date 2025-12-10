@@ -29,6 +29,9 @@
 
             <!-- Menu Items -->
             <div class="collapse navbar-collapse" id="navbarNav">
+                 <button class="close-sidebar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal"
@@ -67,14 +70,14 @@
 
     <section class="about-us-section">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center g-5">
                 <!-- Left Content -->
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <h6 class=" section-title">About Us</h6>
                     <div class="underline"></div>
                     <h2 class="about-hd ">
-                        A Journey Rooted in Purity,<br>
-                        Progress & Purpose
+                        A Journey Rooted in Purity,<br class="title-line-break">
+                        <span style="color: #51830D;">Progress & Purpose</span>
                     </h2>
                     <p class="text-muted about-para">
                         It was just 40 years ago we have started our journey, beginning with<br>
@@ -93,10 +96,10 @@
                 </div>
 
                 <!-- Right Images -->
-                <div class="col-md-6  hero-img">
+                <div class="col-lg-6  hero-img position-relative">
                     <img src="images/about_rel_img.png" class="rounded main-img" alt="Team Image">
                     <img src="images/about_abso_img.png" class="rounded small-img position-absolute" alt="Small Team">
-                    <img src="images/dot_img.png" alt="" class="dot-image">
+                    <img src="images/dot_img.png" alt="" class="dot-image position-absolute">
                 </div>
             </div>
 
@@ -106,9 +109,10 @@
 
     <section class="our-mission-section">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row g-5 align-items-center">
                 <!-- Left Images -->
-                <div class="col-md-6 position-relative">
+                <div class="col-lg-6 position-relative">
+
                     <img src="images/about_row_two.png" class="img-fluid rounded mission-main-img" alt="Team Image">
                     <img src="images/about_row_two_sm.png" class="img-fluid rounded mission-small-img position-absolute"
                         alt="Small Team">
@@ -117,8 +121,9 @@
                 </div>
 
                 <!-- Right content -->
-                <div class="col-md-6 dv-mission">
+                <div class="col-lg-6 dv-mission">
                     <h6 class=" section-title">Our Mission</h6>
+                    <div class="underline"></div>
                     <h2 class="about-hd ">
                         <span>Growing With Purpose,</span><br>
                         Serving With Passion
@@ -143,16 +148,17 @@
 
     <section class="our-vission-section">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row g-5 align-items-center">
                 <!-- Left Content -->
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <h6 class=" section-title">Our Vision</h6>
+                    <div class="underline"></div>
                     <h2 class="about-hd ">
                         Inspiring Progress<br>Through
                         <span>Purity & Purpose</span>
                     </h2>
                     <p class="text-muted about-para">
-                        Our vision is to bring authentic, quality products to every<br> household with care and
+                        Our vision is to bring authentic, quality products to every household <br>with care and
                         commitment.<br>
                         Empowering healthier lifestyles through uncompromised<br> quality and thoughtful innovation.
                     </p>
@@ -165,7 +171,7 @@
                 </div>
 
                 <!-- Right Images -->
-                <div class="col-md-6 position-relative">
+                <div class="col-lg-6 position-relative">
                     <img src="images/about_row_three.png" class="img-fluid rounded vision-main-img" alt="Team Image">
                     <img src="images/about_row_three_sm.png"
                         class="img-fluid rounded vision-small-img position-absolute" alt="Small Team">
@@ -176,41 +182,43 @@
 
     </section>
 
-    <section class="freshness-section container-fluid">
-        <div class="row align-items-center">
-            <!-- Left Text -->
-            <div class="col-lg-4 freshness-text">
-                <h2>Freshness Goes <br>Beyond the Shelf</h2>
-                <p>Every step we take reflects our promise of purity</p>
-            </div>
+    <section class="freshness-section ">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Text -->
+                <div class="col-lg-4 freshness-text">
+                    <h2>Freshness Goes <br>Beyond the Shelf</h2>
+                    <p>Every step we take reflects our <br> promise of purity</p>
+                </div>
 
-            <!-- Right Slider -->
-            <div class="col-lg-8">
-                <div class="freshness-slider">
-                    <!-- Slide 1 -->
-                    <div class="slide-item">
-                        <img src="images/about_slider_img_two.png" alt="Image 1">
-                        <div class="slide-caption">
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing</p>
+                <!-- Right Slider -->
+                <div class="col-lg-8">
+                    <div class="freshness-slider">
+                        <!-- Slide 1 -->
+                        <div class="slide-item">
+                            <img src="images/about_slider_img_two.png" alt="Image 1">
+                            <div class="slide-caption">
+                                <h5>Lorem Ipsum</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 2 -->
-                    <div class="slide-item">
-                        <img src="images/about_slider_img_one.png" alt="Image 2">
-                        <div class="slide-caption">
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <!-- Slide 2 -->
+                        <div class="slide-item">
+                            <img src="images/about_slider_img_one.png" alt="Image 2">
+                            <div class="slide-caption">
+                                <h5>Lorem Ipsum</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 3 -->
-                    <div class="slide-item">
-                        <img src="images/about_slider_img_two.png" alt="Image 3">
-                        <div class="slide-caption">
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <!-- Slide 3 -->
+                        <div class="slide-item">
+                            <img src="images/about_slider_img_two.png" alt="Image 3">
+                            <div class="slide-caption">
+                                <h5>Lorem Ipsum</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,18 +226,24 @@
         </div>
     </section>
 
-    <section class="experts-section">
+    <section class="experts-section position-relative">
+        <img class="exparts-green-bg" src="images/radial_one.png" alt="">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Left Text -->
                 <div class="col-lg-4 position-relative">
                     <h6 class="section-title">We Make Connections</h6>
+                    <div class="underline"></div>
                     <h2>Discover Trust Team<br>and <span>Our Experts</span></h2>
 
                     <!-- Arrows inside text area -->
-                    <div class="arrow-controls">
-                        <button type="button" class="slick-prevs"><i class="bi bi-arrow-left"></i></button>
-                        <button type="button" class="slick-nexts"><i class="bi bi-arrow-right"></i></button>
+                    <div class="arrow-controls d-flex ">
+                        <button type="button" class="slick-prevs">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button type="button" class="slick-nexts">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
 
@@ -244,6 +258,7 @@
                                 <p>CEO</p>
                             </div>
                         </div>
+
 
                         <!-- Expert 2 -->
                         <div class="expert-card">
@@ -277,7 +292,8 @@
         </div>
     </section>
 
-    <section class="popular-searches-section">
+    <section class="popular-searches-section position-relative">
+        <img class="footer-bg-green" src="images/radial_two.png" alt="">
         <div class="container">
             <h4 class="popular-section-title">Popular Searches</h4>
 
