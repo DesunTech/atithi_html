@@ -8,6 +8,7 @@
     <title>Atithi</title>
     <link rel="icon" type="image/png" href="images/atithi_logo.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
@@ -16,7 +17,7 @@
 <body>
 
     <!-- Navbar -->
-    <div class="container">
+    <div class="container " >
         <nav class="navbar  navbar-expand-lg navbar-light bg-white  bg-white py-2">
             <!-- Logo -->
             <a class="navbar-brand" href="#">
@@ -35,14 +36,16 @@
                     <i class="fa-solid fa-xmark"></i>
                 </button>
 
-                <ul class="navbar-nav mx-auto">
+                <ul data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="navbar-nav mx-auto ">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal"
                             data-bs-target="#distributorModal">Become a Distributor</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog-listing.html">News & Media</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog-detailes.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">News & Media</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog-listing.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
                 </ul>
 
@@ -162,8 +165,10 @@
             <div class="row align-items-center justify-content-between">
 
                 <!-- LEFT COLUMN -->
-                <div class="col-lg-6 mb-5 mb-lg-0 lft-col p-5">
-                    <h3 class="organic-head">
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500"  class="col-lg-6 mb-5 mb-lg-0 lft-col p-5" >
+                    <h3 class="organic-head" >
                         India’s Leading <br class="organic-head-br">
                         <span class="text-success">Organic Grocery Manufacturer</span>
                     </h3>
@@ -172,7 +177,10 @@
                 </div>
 
                 <!-- RIGHT COLUMN -->
-                <div class="col-lg-6 p-5">
+                <div  data-aos="fade-left"
+      data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="1500" class="col-lg-6 p-5">
                     <!-- Video Section -->
                     <div class="video-card position-relative rounded-4 overflow-hidden">
                         <img src="images/organic_right_img.png" alt="Factory Video" class="img-fluid video-thumb">
@@ -302,7 +310,9 @@
             <div class="row align-items-center g-5">
 
                 <!-- Left Image -->
-                <div class="col-xl-6 position-relative">
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="col-xl-6 position-relative">
                     <div class="image-wrapper">
                         <img src="images/partner_img.png" alt="Business Meeting" class="img-fluid rounded-4">
                         <div class="border-box"></div>
@@ -310,7 +320,10 @@
                 </div>
 
                 <!-- Right Text -->
-                <div class="col-xl-6 right-col">
+                <div data-aos="fade-left"
+     data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="1500" class="col-xl-6 right-col">
                     <h2 class="partner-hd">
                         <span class="partner-highlight">Expand Your Business</span><br class="organic-head-br">
                         With Our Brand
@@ -333,7 +346,9 @@
         <div class="container app-container">
             <div class="row align-items-center">
                 <!-- Left Content -->
-                <div class="col-md-6 text-content">
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="col-md-6 text-content">
                     <h2 class="app-hd">Download Atithi <br>Mobile App</h2>
                     <p class="app-para">
                         Your favorite grocery store, now in your pocket —<br> making everyday shopping easier, faster,
@@ -354,7 +369,10 @@
         <div class="container">
             <div class="row align-items-center g-5">
                 <!-- Left Content -->
-                <div class="col-xl-6">
+                <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+      data-aos-duration="1500" class="col-xl-6" >
                     <h6 class=" section-title">About Us</h6>
                     <div class="underline"></div>
                     <h2 class="about-hd ">
@@ -378,7 +396,10 @@
                 </div>
 
                 <!-- Right Images -->
-                <div class="col-xl-6  hero-img position-relative">
+                <div data-aos="fade-left"
+      data-aos-easing="ease-in-sine"
+     data-aos-offset="500"
+     data-aos-duration="1500" class="col-xl-6  hero-img position-relative">
                     <img src="images/about_rel_img.png" class="rounded main-img" alt="Team Image">
                     <img src="images/about_abso_img.png" class="rounded small-img position-absolute" alt="Small Team">
 
@@ -481,7 +502,9 @@
         <div class="why-choose-cont">
             <div class="row align-items-center">
                 <!-- Left Text Area -->
-                <div class="col-xl-5 left-text-area">
+                <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="col-xl-5 left-text-area">
                     <h6 class="choose-sub-hd">Why Choose Us</h6>
                     <div class="underline"></div>
                     <h2 class="choose-hd">Committed to Quality,<br>Driven by Trust</h2>
@@ -513,7 +536,9 @@
             <h2 class="main-heading">A Journey Rooted in Trust & Vision</h2>
 
             <div class="row justify-content-center mt-5">
-                <div class="col-md-4 col-sm-6 mb-4">
+                <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="3000" class="col-md-4 col-sm-6 mb-4">
                     <div class="journey-box">
                         <div class="icon-box">
                             <img src="images/journey_img (3).png" alt="icon">
@@ -523,7 +548,9 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="journey-box">
+                    <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="2000" class="journey-box">
                         <div class="icon-box">
                             <img src="images/journey_img (2).png" alt="icon">
                         </div>
@@ -531,7 +558,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 col-sm-6 mb-4">
+                <div  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1000" class="col-md-5 col-sm-6 mb-4">
                     <div class="journey-box">
                         <div class="icon-box">
                             <img src="images/journey_img (3).png" alt="icon">
@@ -550,10 +579,12 @@
     <section class="distributor-sec">
         <img src="images/distributor_sm_img.png" alt="" class="distributor_sm_image">
         <div class="container">
-            <div class="bg-distributor">
+            <div   class="bg-distributor">
                 <img src="images/distributor-img.png" alt="">
                 <div class="position-absolute distributer-content">
-                    <div class=" content-box">
+                    <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="3000" class=" content-box">
                         <h2 class="fw-bold">Grow With Us as Our Distributor</h2>
                         <p class="text-muted ">
                             From our hands to your kitchen, with care and <br>
@@ -572,7 +603,9 @@
 
 
     <section class="business-section d-flex align-items-center text-center">
-        <div class="container">
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="container">
             <h2 class="text-white">Grow Your Business With Atithi Products</h2>
             <p class="text-white mt-3">
                 Our have the best people with whom we can overcome all obstacles in our way,<br>
@@ -585,7 +618,9 @@
     </section>
 
     <section class="popular-searches-section">
-        <div class="container">
+        <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="container">
             <h4 class="popular-section-title">Popular Searches</h4>
 
             <div class="search-item">
@@ -618,7 +653,9 @@
     <footer class="footer-section">
         <div class="container footer-container">
             <!-- Left column -->
-            <div class="footer-col footer-about">
+            <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="3000" class="footer-col footer-about">
                 <img src="images/atithi_logo.svg" alt="Atithi Logo" class="footer-logo">
                 <p>Lorem ipsum dolor sit amet, sapien<br> consectetur adipiscing elit.</p>
                 <h5>Follow Us</h5>
@@ -631,7 +668,9 @@
             </div>
 
             <!-- Middle column 1 -->
-            <div class="footer-col footer-links">
+            <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="2200" class="footer-col footer-links">
                 <h5><i class="fa-solid fa-arrow-right"></i> Home</h5>
                 <ul>
                     <li><a href="#">Delivery Areas</a></li>
@@ -642,7 +681,9 @@
             </div>
 
             <!-- Middle column 2 -->
-            <div class="footer-col footer-links">
+            <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="footer-col footer-links">
                 <h5><i class="fa-solid fa-arrow-right"></i> Help</h5>
                 <ul>
                     <li><a href="#">FAQ</a></li>
@@ -654,7 +695,9 @@
             </div>
 
             <!-- Right column -->
-            <div class="footer-col footer-contact">
+            <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  data-aos-duration="700" class="footer-col footer-contact">
                 <h5 class="contact-title">Contact us</h5>
                 <div class="contact-item">
                     <span class="icon-circle"><i class="fa-solid fa-envelope"></i></span>
@@ -865,7 +908,13 @@
     <script src="js/jquery-min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/common.js"></script>
+
+
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
