@@ -1882,19 +1882,25 @@ margin-bottom: 0;
 
 /*---distributor-nav end--- */
 /* ---about-banner start--- */
-.about-banner {
-    background-image: url('../images/about_banner_img.png');
-    background-size: cover;
-    background-position:top-center;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 200px 0 40px;
-    min-height: 400px;
+.about-banner{
     position: relative;
-   
 }
+.about-banner-wrap {
+    height: clamp(260px, 40vw, 520px);
+    
+    overflow: hidden;
+}
+.about-banner-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-container{
+    position: absolute;
+    top: 70%;
+    left: 100px;
 
-
+}
 .breadcrumb {
     background: transparent;
     padding: 0;
@@ -2327,7 +2333,10 @@ h1.about-title {
 .why-join-left h2 span {
     color: #51830D;
 }
-
+.why-colum{
+    position: relative;
+    z-index: 20;
+}
 .why-join-left p {
     font-family: 'Lato';
     font-style: normal;
@@ -3455,6 +3464,18 @@ h1.about-title {
 }
 
 }
+@media (max-width: 1400px){
+.navbar-nav .nav-link {
+    font-family: "Public Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #27454a;
+    margin: 0 20px 0 0;
+    transition: 0.3s;
+}
+}
 
 @media (max-width: 1300px) {
     .navbar-nav .nav-link {
@@ -3464,7 +3485,7 @@ h1.about-title {
     font-size: 14px;
     line-height: 15px;
     color: #27454a;
-    margin: 0 30px 0 0;
+    margin: 0 10px 0 0;
     transition: 0.3s;
 }
     .card{
@@ -3547,9 +3568,19 @@ h1.about-title {
 }
 @media (max-width:1200px){
     .navbar-brand {
-   width: clamp(50px, 5vw, 70px);
-height: clamp(48px, 4.8vw, 68px);
+   width: 80px;
+height: 68px;
 
+}
+ .navbar-nav .nav-link {
+    font-family: "Public Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #27454a;
+    margin: 0 8px 0 0;
+    transition: 0.3s;
 }
    .card{
         min-width:70px;
@@ -3578,7 +3609,7 @@ height: clamp(48px, 4.8vw, 68px);
 
 }
 .collapse.navbar-collapse{
-    padding: 0;
+    padding: 10px;
 }
    
     .card{
@@ -3860,7 +3891,12 @@ height: clamp(48px, 4.8vw, 68px);
         left: 60px;
         width: 520px;
     }
-    
+    .about-container{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+
+}
 
 }
 

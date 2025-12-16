@@ -9,6 +9,8 @@
      <link rel="icon" type="image/png" href="images/atithi_logo.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,7 +36,9 @@
                <button class="close-sidebar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
-                <ul class="navbar-nav mx-auto">
+                <ul data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="javascript:void(0)" data-bs-toggle="modal"
                             data-bs-target="#distributorModal">Become a Distributor</a></li>
@@ -238,8 +242,11 @@
       </div>
     </div>
   </section>
-  <section class="popular-searches-section">
-        <div class="container">
+  
+    <section class="popular-searches-section">
+        <div data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="container">
             <h4 class="popular-section-title">Popular Searches</h4>
 
             <div class="search-item">
@@ -268,11 +275,13 @@
             </div>
         </div>
     </section>
-    
-   <footer class="footer-section">
+
+    <footer class="footer-section">
         <div class="container footer-container">
             <!-- Left column -->
-            <div class="footer-col footer-about">
+            <div data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"  data-aos-duration="3000" class="footer-col footer-about">
                 <img src="images/atithi_logo.svg" alt="Atithi Logo" class="footer-logo">
                 <p>Lorem ipsum dolor sit amet, sapien<br> consectetur adipiscing elit.</p>
                 <h5>Follow Us</h5>
@@ -285,7 +294,9 @@
             </div>
 
             <!-- Middle column 1 -->
-            <div class="footer-col footer-links">
+            <div data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"  data-aos-duration="2200" class="footer-col footer-links">
                 <h5><i class="fa-solid fa-arrow-right"></i> Home</h5>
                 <ul>
                     <li><a href="#">Delivery Areas</a></li>
@@ -296,7 +307,9 @@
             </div>
 
             <!-- Middle column 2 -->
-            <div class="footer-col footer-links">
+            <div data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="footer-col footer-links">
                 <h5><i class="fa-solid fa-arrow-right"></i> Help</h5>
                 <ul>
                     <li><a href="#">FAQ</a></li>
@@ -308,7 +321,9 @@
             </div>
 
             <!-- Right column -->
-            <div class="footer-col footer-contact">
+            <div data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"  data-aos-duration="700" class="footer-col footer-contact">
                 <h5 class="contact-title">Contact us</h5>
                 <div class="contact-item">
                     <span class="icon-circle"><i class="fa-solid fa-envelope"></i></span>
@@ -338,6 +353,18 @@
         </div>
     </div>
 
+<!-- Jquery-->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+
+
+
+    <script>
+  AOS.init();
+</script>
   
 </body>
 </html>
