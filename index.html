@@ -8,10 +8,12 @@
     <title>Atithi</title>
     <link rel="icon" type="image/png" href="images/atithi_logo.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
     <link rel="stylesheet" href="css/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
 </head>
 
 <body>
@@ -50,9 +52,11 @@
                 </ul>
 
                 <!-- Button -->
-                <a href="#" class="btn partner-btn">
+               <div class="header-button">
+                 <a href="#" class="btn partner-btn">
                     Partner With Us <i class="fa-solid fa-arrow-right"></i>
                 </a>
+               </div>
             </div>
         </nav>
     </div>
@@ -167,7 +171,7 @@
                 <!-- LEFT COLUMN -->
                 <div data-aos="zoom-in-right"
      data-aos-offset="100"
-     data-aos-easing="ease-in-sine"  data-aos-duration="1500"  class="col-lg-6 mb-5 mb-lg-0 lft-col p-5" >
+     data-aos-easing="ease-in-sine"  data-aos-duration="1500"  class="col-lg-6  mb-lg-0 lft-col py-2 px-5" >
                     <h3 class="organic-head" >
                         India’s Leading <br class="organic-head-br">
                         <span class="text-success">Organic Grocery Manufacturer</span>
@@ -180,7 +184,7 @@
                 <div  data-aos="zoom-in-left"
       data-aos-easing="ease-in-sine"
      data-aos-offset="100"
-     data-aos-duration="1000" class="col-lg-6 p-5">
+     data-aos-duration="1000" class="col-lg-6 py-2 px-5">
                     <!-- Video Section -->
                     <div class="video-card position-relative rounded-4 overflow-hidden">
                         <img src="images/organic_right_img.png" alt="Factory Video" class="img-fluid video-thumb">
@@ -200,7 +204,7 @@
 
                     <!-- Info Boxes -->
                     <div class="d-flex flex-wrap gap-4 mb-4">
-                        <div class="info-box d-flex align-items-center justify-content-center gap-2">
+                        <div class="info-box d-flex align-items-center  gap-2">
                             <div class="icon-one d-flex align-items-center justify-content-center">
                                 <img src="images/green-icon_one.png" alt="">
                             </div>
@@ -210,7 +214,7 @@
                             </div>
                         </div>
 
-                        <div class="info-box d-flex align-items-center justify-content-center gap-2">
+                        <div class="info-box d-flex align-items-center  gap-2">
                             <div class="icon-two d-flex align-items-center justify-content-center">
                                 <img src="images/green-icon_two.png" alt="">
                             </div>
@@ -357,9 +361,34 @@
                         and
                         smarter.
                     </p>
-                    <div class="mt-3 d-flex">
-                        <img src="images/google-play.png" class="store-badge me-3" alt="Google Play">
-                        <img src="images/app-store.png" class="store-badge" alt="App Store">
+                    <div class="mt-3 ">
+                       <div class="store-wrap">
+
+  <!-- Google Play -->
+  <div class="play-button-wrap">
+    <a href="https://play.google.com/store" target="_blank" class="store-btn">
+    <div class="google">
+        <img src="images/playstore.png" class="store-icon">
+    </div>
+    <div class="store-text">
+      <span class="small-text">GET IT ON</span>
+      <span class="big-text">Google Play</span>
+    </div>
+  </a>
+  </div>
+
+  <!-- App Store -->
+  <div class="play-button-wrap" >
+    <a href="https://www.apple.com/app-store/" target="_blank" class="store-btn">
+    <img src="images/apple.png" class="store-icon apple">
+    <div class="store-text">
+      <span class="small-text">Download on the</span>
+      <span class="big-text">App Store</span>
+    </div>
+  </a>
+  </div>
+
+</div>
                     </div>
                 </div>
             </div>
@@ -374,7 +403,7 @@
                 <div  data-aos="zoom-in-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"
-      data-aos-duration="1500" class="col-xl-6" >
+      data-aos-duration="1500" class="col-lg-6" >
                     <h6 class=" section-title">About Us</h6>
                     <div class="underline"></div>
                     <h2 class="about-hd ">
@@ -401,7 +430,7 @@
                 <div data-aos="fade-left"
       data-aos-easing="ease-in-sine"
      data-aos-offset="100"
-     data-aos-duration="1500" class="col-xl-6  hero-img position-relative">
+     data-aos-duration="1500" class="col-lg-6  hero-img position-relative">
                     <img src="images/about_rel_img.png" class="rounded main-img" alt="Team Image">
                     <img src="images/about_abso_img.png" class="rounded small-img position-absolute" alt="Small Team">
 
@@ -620,9 +649,7 @@
     </section>
 
     <section class="popular-searches-section">
-        <div data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="container">
+        <div class="container">
             <h4 class="popular-section-title">Popular Searches</h4>
 
             <div class="search-item">
@@ -655,9 +682,7 @@
     <footer class="footer-section">
         <div class="container footer-container">
             <!-- Left column -->
-            <div data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"  data-aos-duration="3000" class="footer-col footer-about">
+            <div  class="footer-col footer-about">
                 <img src="images/atithi_logo.svg" alt="Atithi Logo" class="footer-logo">
                 <p>Lorem ipsum dolor sit amet, sapien<br> consectetur adipiscing elit.</p>
                 <h5>Follow Us</h5>
@@ -670,9 +695,7 @@
             </div>
 
             <!-- Middle column 1 -->
-            <div data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"  data-aos-duration="2200" class="footer-col footer-links">
+            <div  class="footer-col footer-links">
                 <h5><i class="fa-solid fa-arrow-right"></i> Home</h5>
                 <ul>
                     <li><a href="#">Delivery Areas</a></li>
@@ -683,9 +706,7 @@
             </div>
 
             <!-- Middle column 2 -->
-            <div data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"  data-aos-duration="1500" class="footer-col footer-links">
+            <div class="footer-col footer-links">
                 <h5><i class="fa-solid fa-arrow-right"></i> Help</h5>
                 <ul>
                     <li><a href="#">FAQ</a></li>
@@ -697,9 +718,7 @@
             </div>
 
             <!-- Right column -->
-            <div data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"  data-aos-duration="700" class="footer-col footer-contact">
+            <div  class="footer-col footer-contact">
                 <h5 class="contact-title">Contact us</h5>
                 <div class="contact-item">
                     <span class="icon-circle"><i class="fa-solid fa-envelope"></i></span>
@@ -871,7 +890,7 @@
 
                 <div class="modal-body">
                     <form>
-                        <div class="row g-3">
+                        <div class="row g-2">
                             <div class="col-md-6">
                                 <input type="text" class="form-control form-field" placeholder="Name">
                             </div>
@@ -910,7 +929,7 @@
     <script src="js/jquery-min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
     <script src="js/common.js"></script>
 
 

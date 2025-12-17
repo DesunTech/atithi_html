@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      once: true,
+      duration: 600,
+      easing: "ease-out",
+    });
+  });
+
+
+
+
+
 jQuery(document).ready(function ($) {
     $('.logo-slider').slick({
         slidesToShow: 4,
@@ -92,13 +104,13 @@ $(document).ready(function () {
         autoplaySpeed: 2500,
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 475,
                 settings: {
                     slidesToShow: 1
                 }
