@@ -4005,7 +4005,7 @@ height: clamp(48px, 4.8vw, 68px);
     }
 
     .contact-modal {
-        border-radius: 12px;  /* More rounded border for very small screens */
+        border-radius: 12px;  
     }
 
     .modal-body {
@@ -4013,19 +4013,19 @@ height: clamp(48px, 4.8vw, 68px);
     }
 
     .form-control {
-        font-size: 18px;  /* Further reduce font size */
+        font-size: 18px;  
         padding: 10px;
         margin-bottom: 28px;
     }
 
     .send-btn {
-        padding: 12px 18px;  /* Even smaller padding */
-        font-size: 15px;  /* Further reduce font size */
+        padding: 12px 18px;  
+        font-size: 15px; 
         margin-top: 20px;
     }
 
     .custom-close {
-        top: -50px;  /* Adjust the close button position */
+        top: -50px; 
         width: 30px;
         height: 30px;
         font-size: 14px;
@@ -4103,7 +4103,7 @@ height: clamp(48px, 4.8vw, 68px);
     }
     .modal-dialog {
         max-width: 70%;  
-        margin: 0 10px;
+        margin: 0 auto;
     }
 
     .contact-modal {
@@ -4225,7 +4225,7 @@ height: clamp(48px, 4.8vw, 68px);
 
   .modal-dialog {
         max-width: 70%;  
-        margin: 0 10px;
+        margin: 0 auto;
     }
 
     .contact-modal {
