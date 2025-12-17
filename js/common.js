@@ -83,7 +83,7 @@ $(document).ready(function () {
         autoplaySpeed: 2500,
         responsive: [
             {
-                breakpoint: 991,
+                breakpoint: 576,
                 settings: {
                     slidesToShow: 1
                 }
@@ -154,18 +154,19 @@ $('.js-banner').slick({
     dots: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    
 });
 
 $('.js-product').slick({
     centerMode: true,
-    centerPadding: '30px',
+    centerPadding: '50px',
     slidesToShow: 5,
     autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
 
         {
-         breakpoint: 991,
+         breakpoint: 1200,
             settings: {
                 arrows: true,
                 centerMode: true,
@@ -179,7 +180,7 @@ $('.js-product').slick({
                 arrows: true,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 1
             }
         },
         {
