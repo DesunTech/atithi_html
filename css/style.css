@@ -858,7 +858,7 @@ height: clamp(48px, 4.8vw, 68px);
 /* ---app download-section start--- */
 
 .app-container {
-    background-image: url(../images/app-bg-img-1.png);
+    background-image:linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0)), url(../images/app-bg-img-1.png);
    
     background-size: cover;
     background-position:50% 20%;
