@@ -4239,19 +4239,19 @@ height: clamp(48px, 4.8vw, 68px);
     }
 
     .form-control {
-        font-size: 14px;  /* Further reduce font size */
+        font-size: 14px; 
         padding: 10px;
         margin-bottom: 18px;
     }
 
     .send-btn {
-        padding: 12px 18px;  /* Even smaller padding */
-        font-size: 12px;  /* Further reduce font size */
+        padding: 12px 18px; 
+        font-size: 12px;  
         margin-top: 20px;
     }
 
     .custom-close {
-        top: -50px;  /* Adjust the close button position */
+        top: -50px;  
         width: 30px;
         height: 30px;
         font-size: 14px;
